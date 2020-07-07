@@ -26,7 +26,7 @@ module.exports = {
                     },
                     SECRET_KEY,
                     {
-                        expiresIn: 60, // expires in 5 min
+                        expiresIn: 300, // expires in 5 min
                     }
                 );
                 result.token = token;
