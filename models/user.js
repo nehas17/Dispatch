@@ -11,21 +11,5 @@ module.exports = {
                 u.password ="${password}" 
                 `)
 
-    },
-    checkUserById: async (con, userId) => {
-        return await con.query(
-            `
-                SELECT 
-                    u.* ,
-                FROM
-                    ${DB.USER} u
-                WHERE
-                    u.id = ${userId}
-                `,
-            [userId]
-        );
-    },
-
-
-
+    }
 };

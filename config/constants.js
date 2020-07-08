@@ -7,7 +7,6 @@ var development = {
         USER:"user"  ,
         DISPATCH:"dispatch"   
     },
-    API_BASE_URL : "http://localhost:3001/",
     // Secrete Key
     SECRET_KEY :`6189b>qAk$q>^-}vCipoVlH7>.SoJ&`,
     COOKIE_KEY:"nehs"
